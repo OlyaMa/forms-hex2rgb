@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.input {
+  display: flex;
+  align-self: center;
+  width: 14rem;
+  height: 3rem;
+  text-align: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.rgba {
+  background-color: grey;
+  align-self: center;
+  color: white;
+}
+
+.rgba span {
+  width: 100%;
+  text-align: center;
+}
